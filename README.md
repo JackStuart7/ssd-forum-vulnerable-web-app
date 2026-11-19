@@ -35,7 +35,7 @@ Usernames and password hashes appear in the results. **Fix:** a prepared stateme
 
 ## Setup (XAMPP)
 
-1. Copy the `5218SSD` folder into `xampp/htdocs/`.
+1. Copy the `5218SSD` folder (inside `SSD-FORUM-VULN-WEB-APP`) into `xampp/htdocs/`.
 2. Copy `includes/config.example.php` to `includes/config.php` and change the password or port if your MySQL setup differs from the XAMPP defaults.
 3. Start Apache and MySQL in the XAMPP control panel.
 4. Open http://localhost/phpmyadmin, go to the **SQL** tab, and run the contents of `sql.sql`.
